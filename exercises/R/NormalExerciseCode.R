@@ -1,4 +1,4 @@
-HR.data<- read.csv(file="./NormalExerciseData.csv", header=TRUE, sep=",")
+HR.data<- read.csv(file="C:/Users/local-admin.math-la5253lpB/Desktop/NormalExerciseData.csv", header=TRUE, sep=",")
 
 #plotting histogram with fitted normal density
 library(rcompanion)

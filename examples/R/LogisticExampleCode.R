@@ -1,4 +1,4 @@
-companies.data<- read.csv(file="./LogisticExampleData.csv", 
+companies.data<- read.csv(file="C:/Users/local-admin.math-la5253lpB/Desktop/LogisticExampleData.csv", 
 header=TRUE, sep=",")
 
 #specifying reference category

@@ -1,4 +1,4 @@
-fit.data<- read.csv(file='./LongitudinalNormalExerciseData.csv',
+fit.data<- read.csv(file='C:/Users/local-admin.math-la5253lpB/Desktop/LongitudinalNormalExerciseData.csv',
                     header=TRUE, sep=',')
 library(reshape2)
 
@@ -8,11 +8,12 @@ data1<- melt(fit.data[,c('id','gender','age','oxygen1','oxygen2','oxygen3')],
 data2<- melt(fit.data[,c('runtime1','runtime2','runtime3')],variable.name='runtimelevel',value.name='runtime')
 data3<- melt(fit.data[,c('pulse1','pulse2','pulse3')],variable.name='pulselevel',value.name='pulse')
 data4<- cbind(data1,data2)
+
 longform.data<- cbind(data4,data3)
 
 condition<- ifelse(longform.data$oxygenlevel=='oxygen1',1,ifelse(longform.data$oxygenlevel=='oxygen2',2,3))
 
-#plotting histogram with normal density curve
+#plotting histogram
 library(rcompanion)
 
 plotNormalHistogram(longform.data$pulse)

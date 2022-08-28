@@ -1,6 +1,5 @@
-libraries.data<- read.csv(file="./BetaExampleData.csv", 
+libraries.data<- read.csv(file="C:/Users/local-admin.math-la5253lpB/Desktop/BetaExampleData.csv", 
 header=TRUE, sep=",")
-
 library(betareg)
 
 #fitting beta regression model

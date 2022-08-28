@@ -1,4 +1,4 @@
-health.data<- read.csv(file='./ZIPExerciseData.csv',
+health.data<- read.csv(file='C:/Users/local-admin.math-la5253lpB/Desktop/ZIPExerciseData.csv',
 header = TRUE, sep=',')
 
 library(pscl)

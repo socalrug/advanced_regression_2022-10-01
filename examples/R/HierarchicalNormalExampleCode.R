@@ -1,4 +1,4 @@
-dyads.data<- read.csv(file="./HierarchicalNormalExampleData.csv", 
+dyads.data<- read.csv(file="C:/Users/local-admin.math-la5253lpB/Desktop/HierarchicalNormalExampleData.csv", 
 header=TRUE, sep=",")
 
 #creating long-form data set
@@ -23,7 +23,7 @@ plotNormalHistogram(longform.data$qol)
 library(lme4)
 
 summary(fitted.model<- lmer(qol ~ relation + depression + visit 
-+ (1 + visit|family)+ (1 + visit|family:individual), 
++ (1 + visit|family) + (1 + visit|family:individual), 
 control=lmerControl(calc.derivs = FALSE), data=longform.data))
 
 #using fitted model for prediction

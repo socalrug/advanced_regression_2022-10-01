@@ -1,4 +1,4 @@
-birds.data<- read.csv(file='./BetaExerciseData.csv',
+birds.data<- read.csv(file='C:/Users/local-admin.math-la5253lpB/Desktop/BetaExerciseData.csv',
 header=TRUE, sep=',')
 
 library(betareg)

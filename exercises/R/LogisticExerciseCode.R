@@ -1,4 +1,4 @@
-rate.data<- read.csv(file='./LogisticExerciseData.csv',
+rate.data<- read.csv(file='C:/Users/local-admin.math-la5253lpB/Desktop/LogisticExerciseData.csv',
 header=TRUE, sep=',')
 
 #specifying reference category

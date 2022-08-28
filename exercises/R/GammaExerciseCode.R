@@ -1,7 +1,8 @@
-QIscore.data<- read.csv(file="./GammaExerciseData.csv",
+QIscore.data<- read.csv(file="C:/Users/local-admin.math-la5253lpB/Desktop/GammaExerciseData.csv",
 header=TRUE, sep=',')
 
 #plotting histogram with fitted normal density
+#install.packages("rcompanion")
 library(rcompanion)
 plotNormalHistogram(QIscore.data$score)
 

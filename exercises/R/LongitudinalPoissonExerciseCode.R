@@ -1,4 +1,4 @@
-psoriasis.data<- read.csv(file="./LongitudinalPoissonExerciseData.csv", 
+psoriasis.data<- read.csv(file="C:/Users/local-admin.math-la5253lpB/Desktop/LongitudinalPoissonExerciseData.csv", 
 header=TRUE, sep=",")
 
 #creating long-form data set
