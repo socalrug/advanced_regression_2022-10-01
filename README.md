@@ -127,15 +127,15 @@ Food, drinks and snacks will be provided throughout the event.  We will have veg
     * Coffee
     * Soft drinks
     * Water
-    * Various snacks, (e.g. fruit, chips, nuts, granola bars
+    * Various snacks, (e.g. fruit, chips, nuts, granola bars)
 
 |Qty|Description|
 |:- |:-|
-|19 |Vegan Boxed Lunch|
-|14 |Honey Mustard Ham and Swiss Sandwich|
-|14 |Roast Beef and Cheddar Sandwich|
-|14 |Deli Sliced Turkey and Swiss Sandwich|
-|14 |Grilled Chicken Club with Bacon and Swiss Sandwich|
+|15 |Vegan Boxed Lunch|
+|10 |Honey Mustard Ham and Swiss Sandwich|
+|10 |Roast Beef and Cheddar Sandwich|
+|10 |Deli Sliced Turkey and Swiss Sandwich|
+|10 |Grilled Chicken Club with Bacon and Swiss Sandwich|
 
 ## Schedule
 
