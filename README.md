@@ -132,10 +132,10 @@ Food, drinks and snacks will be provided throughout the event.  We will have veg
 |Qty|Description|
 |:- |:-|
 |15 |Vegan Boxed Lunch|
-|10 |Honey Mustard Ham and Swiss Sandwich|
-|10 |Roast Beef and Cheddar Sandwich|
-|10 |Deli Sliced Turkey and Swiss Sandwich|
-|10 |Grilled Chicken Club with Bacon and Swiss Sandwich|
+|11 |Honey Mustard Ham and Swiss Sandwich|
+|11 |Roast Beef and Cheddar Sandwich|
+|11 |Deli Sliced Turkey and Swiss Sandwich|
+|11 |Grilled Chicken Club with Bacon and Swiss Sandwich|
 
 ## Schedule
 
