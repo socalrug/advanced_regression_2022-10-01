@@ -1,4 +1,4 @@
-cholesterol.data<- read.csv(file="C:/Users/local-admin.math-la5253lpB/Desktop/LongitudinalNormalExampleData.csv", 
+cholesterol.data<- read.csv(file="./LongitudinalNormalExampleData.csv", 
 header=TRUE, sep=",")
 
 #creating long-form data set
@@ -22,6 +22,6 @@ library(nlme)
 summary(fitted.model<- lme(LDL ~ gender + age + month, random =~ 1+month|id, data=longform.data))
 
 #using fitted model for prediction
-print(predict(fitted.model, data.frame(gender="F", age=48, month=3), level=0))
+print(predict(fitted.model, data.frame(gender=0, age=48, month=3),level=0))
 
 

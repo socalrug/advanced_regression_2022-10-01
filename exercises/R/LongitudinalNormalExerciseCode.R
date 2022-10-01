@@ -1,4 +1,4 @@
-fit.data<- read.csv(file='C:/Users/local-admin.math-la5253lpB/Desktop/LongitudinalNormalExerciseData.csv',
+fit.data<- read.csv(file='./LongitudinalNormalExerciseData.csv',
                     header=TRUE, sep=',')
 library(reshape2)
 
@@ -25,7 +25,7 @@ summary(fitted.model<- lme(pulse~gender+age+oxygen+runtime+condition, random=~1+
 control=lmeControl(opt='optim'), data=longform.data))
 
 #prediction
-print(predict(fitted.model, data.frame(id=21, gender='F', age=36, condition=1, oxygen=40.2, 
+print(predict(fitted.model, data.frame(gender=0, age=36, condition=1, oxygen=40.2, 
 runtime=10.3),level=0))
 
 

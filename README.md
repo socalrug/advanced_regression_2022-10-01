@@ -143,17 +143,17 @@ Food, drinks and snacks will be provided throughout the event.  We will have veg
 |:---:|:---:|:------|:-----|:------|
 |08:30|09:00|Sign-in||SB1 Lobby|
 |09:00|09:30|Introduction and computer setup||SB1 2200|
-|09:30|10:30|Linear Regression - definition, fitted model, interpretation of estimated regression coefficients, prediction, R application|2-15|SB1 2200|
-|10:30|11:00|Gamma regression|16-29|SB1 2200|
+|09:30|10:30|Linear Regression - definition, fitted model, interpretation of estimated regression coefficients, prediction, R application|5-18|SB1 2200|
+|10:30|11:00|Gamma regression|19-32|SB1 2200|
 |11:00|11:15|Break||
-|11:15|11:40|Logistic regression|30-40|SB1 2200|
-|11:40|12:10|Poisson regression|41-49|SB1 2200|
-|12:10|12:30|Zero-inflated Poisson regression|50-63|SB1 2200|
+|11:15|11:40|Logistic regression|33-43|SB1 2200|
+|11:40|12:10|Poisson regression|44-52|SB1 2200|
+|12:10|12:30|Zero-inflated Poisson regression|53-66|SB1 2200|
 |12:30|01:30|Lunch||Patio|
-|01:30|02:00|Beta regressions|64-74|SB1 2200|
-|02:00|02:30|Longitudinal normal regression|75-83|SB1 2200|
+|01:30|02:00|Beta regressions|67-77|SB1 2200|
+|02:00|02:30|Longitudinal normal regression|78-86|SB1 2200|
 |02:30|02:45|Break||
-|02:45|03:15|Longitudinal normal regression: Exercise|84-89|SB1 2200|
-|03:15|03:45|Longitudinal logistic regression|90-100|SB1 2200|
-|03:45|04:15|Hierarchical normal models|101-107|SB1 2200|
+|02:45|03:15|Longitudinal normal regression: Exercise|87-92|SB1 2200|
+|03:15|03:45|Longitudinal logistic regression|93-103|SB1 2200|
+|03:45|04:15|Hierarchical normal models|104-110|SB1 2200|
 |04:15|04:30|Wrap-up||SB1 2200|
