@@ -1,4 +1,4 @@
-price,beds,baths,sqft,heating,AC,lot
+price,nbedrooms,nbathrooms,sqft,heating,AC,lotsize
 669000,3,2,1733,central,no,5641
 715000,4,3.5,1812,none,yes,4995
 634900,5,3,2217,none,no,8019

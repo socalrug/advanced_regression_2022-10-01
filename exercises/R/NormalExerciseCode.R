@@ -1,12 +1,12 @@
-HR.data<- read.csv(file="C:/Users/local-admin.math-la5253lpB/Desktop/NormalExerciseData.csv", header=TRUE, sep=",")
+HR.data<- read.csv(file="./NormalExerciseData.csv", header=TRUE, sep=",")
 
 #plotting histogram with fitted normal density
+#install.packages("rcompanion")
 library(rcompanion)
 plotNormalHistogram(HR.data$HR)
 
-
 #fitting general linear model
-summary(fitted.model<- glm(HR ~ age+gender+ethnicity+BMI+nmeds+AQI,
+summary(fitted.model<- glm(HR ~ age + gender + ethnicity + BMI + nmeds + AQI,
 data=HR.data, family=gaussian(link=identity)))
 
 #using fitted model for prediction

@@ -1,6 +1,7 @@
-job.satisfaction.data<- read.csv(file="C:/Users/local-admin.math-la5253lpB/Desktop/NormalExampleData.csv", header=TRUE, sep=",")
+job.satisfaction.data<- read.csv(file="./NormalExampleData.csv", header=TRUE, sep=",")
 
 #plotting histogram with fitted normal density
+#install.packages("rcompanion")
 library(rcompanion)
 plotNormalHistogram(job.satisfaction.data$score)
 

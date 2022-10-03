@@ -1,7 +1,8 @@
-psoriasis.data<- read.csv(file="C:/Users/local-admin.math-la5253lpB/Desktop/LongitudinalPoissonExerciseData.csv", 
+psoriasis.data<- read.csv(file="./LongitudinalPoissonExerciseData.csv", 
 header=TRUE, sep=",")
 
-#creating long-form data set
+#creating longform data set
+#install.packages("reshape2")
 library(reshape2)
 
 longform.data<- melt(psoriasis.data, id.vars=c("patid", "group"), 
@@ -13,11 +14,11 @@ weeks<- ifelse(longform.data$visits=="day1", 0.14, ifelse(longform.data$visits
 5, 13))))
 
 #fitting random slope and intercept Poisson model
+#install.packages("lme4")
 library(lme4)
 
 summary(fitted.model<- glmer(npatches ~ group + weeks 
-+ (1 + weeks|patid), data=longform.data, 
-family=poisson(link="log")))
++ (1 + weeks|patid), data=longform.data, family=poisson(link="log")))
 
 #using fitted model for prediction
 print(predict(fitted.model, data.frame(patid=11, group="Tx", 

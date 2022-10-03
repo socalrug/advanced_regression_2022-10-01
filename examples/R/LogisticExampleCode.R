@@ -1,8 +1,8 @@
-companies.data<- read.csv(file="C:/Users/local-admin.math-la5253lpB/Desktop/LogisticExampleData.csv", 
+companies.data<- read.csv(file="./LogisticExampleData.csv", 
 header=TRUE, sep=",")
 
 #specifying reference category
-approach.rel<- relevel(companies.data$approach, ref="comp")
+approach.rel<- relevel(as.factor(companies.data$approach), ref="comp")
 
 #fitting logistic model
 summary(fitted.model<- glm(approach.rel ~ ownership + nemployees, 

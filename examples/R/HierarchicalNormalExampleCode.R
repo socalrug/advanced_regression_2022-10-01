@@ -1,7 +1,8 @@
-dyads.data<- read.csv(file="C:/Users/local-admin.math-la5253lpB/Desktop/HierarchicalNormalExampleData.csv", 
+dyads.data<- read.csv(file="./HierarchicalNormalExampleData.csv", 
 header=TRUE, sep=",")
 
-#creating long-form data set
+#creating longform data set
+#install.packages("reshape2")
 library(reshape2)
 
 data.depr<- melt(dyads.data[,c("family", "individual", "relation", "depression1","depression2",
@@ -15,16 +16,18 @@ visit<- ifelse(longform.data$depr.visits=="depression1", 1, ifelse(longform.data
 =="depression2", 2, 3)) 
 
 #plotting histogram with fitted normal density
+#install.packages("rcompanion")
 library(rcompanion)
 
 plotNormalHistogram(longform.data$qol)
 
 #fitting hierarchical model
+#install.packages("lme4")
 library(lme4)
 
 summary(fitted.model<- lmer(qol ~ relation + depression + visit 
-+ (1 + visit|family) + (1 + visit|family:individual), 
-control=lmerControl(calc.derivs = FALSE), data=longform.data))
++ (1 + visit | family) + (1 + visit | family:individual), 
+control=lmerControl(calc.derivs=FALSE), data=longform.data))
 
 #using fitted model for prediction
 print(predict(fitted.model, data.frame(family=25, individual=1, 
